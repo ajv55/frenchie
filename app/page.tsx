@@ -18,7 +18,7 @@ export default function Home() {
     }} className={`${arimo.className} bg-opacity-25  bg-no-repeat bg-cover h-screen`}>
       <div   className="h-1/5 flex-wrap flex justify-between items-center text-white p-10">
         <Image className="  " src={Logo} alt='logo' width={180} height={180} />
-        <nav className="border-2 border-green-400 w-5/6 flex justify-evenly items-center text-xl">
+        <nav className=" w-5/6 flex justify-evenly items-center text-xl">
           <Link href={'/Home'}>Home</Link>
           <Link href={'/Puppies'}>Puppies</Link>
           <Link href={'/Upcoming'}>Upcoming Puppies </Link>
