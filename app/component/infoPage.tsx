@@ -8,8 +8,8 @@ import { merriweather } from '../fonts/fonts';
 
 export default function InfoPage() {
   return (
-    <div className=" bg-gray-200 w-full h-5/6 flex justify-evenly ">
-      <div className=" w-1/4 h-full flex flex-col justify-center gap-20">
+    <div className=" bg-gray-200 w-full h-5/6 flex justify-center items-center">
+      <div className=" w-1/4 h-full flex flex-col justify-center  gap-20">
         <div className='flex justify-evenly items-center'>
           <Image src={Scale} alt='scale' width={50} height={50} />
           <div className='flex-col justify-start items-center'>
@@ -32,10 +32,10 @@ export default function InfoPage() {
           </div>
       </div>
       </div>
-      <div className="pt-24 w-4/6 h-full flex justify-start items-center flex-col gap-24">
+      <div className="w-4/6 h-3/6 flex justify-center items-center flex-col gap-16 border-l-2 border-slate-900">
         <h2 className={`${merriweather.className} text-4xl`}>Breeding Info</h2>
-        <p className={`${merriweather.className} tracking-tight text-black-500 md:text-xl dark:text-grey-400  w-5/6`}>The French Bulldog is a small, charming breed with a distinctive appearance, known for its affectionate and playful nature. They have a compact body, short coat, and a unique wrinkled face. They are friendly, good with families and other pets, and require minimal grooming.</p>
-        <p className={`${merriweather.className} tracking-tight text-black-500 md:text-xl dark:text-grey-400 w-5/6`}>However, they are prone to certain health issues due to their flat faces, so regular veterinary care is essential. French Bulldogs are a popular choice for dog lovers, with an average lifespan of 10 to 12 years.</p>
+        <p className={`${merriweather.className} tracking-tight text-black-500 md:text-lg dark:text-grey-400  w-5/6`}>The French Bulldog is a small, charming breed with a distinctive appearance, known for its affectionate and playful nature. They have a compact body, short coat, and a unique wrinkled face. They are friendly, good with families and other pets, and require minimal grooming.</p>
+        <p className={`${merriweather.className} tracking-tight text-black-500 md:text-lg dark:text-grey-400 w-5/6`}>However, they are prone to certain health issues due to their flat faces, so regular veterinary care is essential. French Bulldogs are a popular choice for dog lovers, with an average lifespan of 10 to 12 years.</p>
       </div>
     </div>
   )
