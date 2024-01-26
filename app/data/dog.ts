@@ -5,41 +5,62 @@ export const dogData = [{
     imgUrl: '/pup.jpg',
     birthday: '1/12/24',
     price: 2500,
+    gender: 'Male',
+    color: 'tan with brown',
+    id: 1,
 },
 {
     name: 'Puppy 2',
     imgUrl: '/pup.jpg',
     birthday: '1/12/24',
-    price: 2500
+    price: 2500,
+    gender: 'Female',
+    color: 'tan with brown',
+    id: 2,
 },
 {
     name: 'Puppy 3',
     imgUrl: '/pup.jpg',
     birthday: '1/12/24',
-    price: 2500
+    price: 2500,
+    gender: 'Female',
+    color: 'tan with brown',
+    id: 3,
 },
 {
     name: 'Puppy 4',
     imgUrl: '/pup.jpg',
     birthday: '1/12/24',
-    price: 2500
+    price: 2500,
+    gender: 'Male',
+    color: 'tan with brown',
+    id: 4,
 },
 {
     name: 'Puppy 5',
     imgUrl: '/pup.jpg',
     birthday: '1/12/24',
-    price: 2500
+    price: 2500,
+    gender: 'Male',
+    color: 'tan with brown',
+    id: 5,
 },
 {
     name: 'Puppy 6',
     imgUrl: '/pup.jpg',
     birthday: '1/12/24',
-    price: 2500
+    price: 2500,
+    gender: 'Female',
+    color: 'tan with brown',
+    id: 6,
 },
 {
     name: 'Puppy 7',
     imgUrl: '/pup.jpg',
     birthday: '1/12/24',
-    price: 2500
+    price: 2500,
+    gender: 'Male',
+    color: 'tan with brown',
+    id: 7,
 }
 ]
