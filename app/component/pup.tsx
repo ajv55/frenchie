@@ -37,11 +37,11 @@ export default function Pup() {
         <div className=" w-full h-1/6 p-5 flex justify-center items-center ">
             <h1 className="text-5xl ">Available <span className={`${alex_brush.className} animate-pulse text-8xl text-pink-400`}>Puppies</span></h1>
         </div>
-        <div className=' flex flex-wrap justify-center items-center gap-8 w-full h-full overflow-scroll  p-8'>
+        <div className='relative flex flex-col justify-center items-center gap-8 w-full h-full overflow-scroll  p-8'>
             {dog.map((d): any  => {
-                 return (
-                    <DogMotion name={d.name} price={d.price} birthday={d.birthday} imgUrl={d.imgUrl} key={d.name}  />
-                 )
+                 return ( 
+                   <DogMotion key={d.name} name={d.name} price={d.price} birthday={d.birthday} imgUrl={d.imgUrl}  />
+                 ) 
             })}
         </div>
     </div>

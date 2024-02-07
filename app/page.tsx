@@ -7,6 +7,7 @@ import Pup from './component/pup';
 import Form from "./component/form";
 import Image from "next/image";
 import HowTo from "./component/howTo";
+import Footer from "./component/footer";
 
 
 
@@ -28,6 +29,7 @@ Avaiable Puppies !
       <Pup />
       <HowTo />
       <Form />
+      <Footer />
     </div>
   )
 }

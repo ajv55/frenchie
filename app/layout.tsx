@@ -4,6 +4,7 @@ import './globals.css'
 import { PupProvider } from './context/pupContext';
 import { Toaster } from 'react-hot-toast';
 import Nav from './component/ nav';
+import Footer from './component/footer';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,10 +23,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Toaster position='top-right' toastOptions={{duration: 3000}} />
+        <Nav />
         <PupProvider>
-          <Nav  />
           {children}
-          </PupProvider>
+        </PupProvider>
       </body>
     </html>
   )

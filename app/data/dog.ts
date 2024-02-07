@@ -8,6 +8,9 @@ export const dogData = [{
     gender: 'Male',
     color: 'tan with brown',
     id: 1,
+    age: '12 weeks',
+    momWeight: '18 - 20 lbs',
+    dadWeight: '25 - 30 lbs',
 },
 {
     name: 'Puppy 2',
@@ -17,6 +20,9 @@ export const dogData = [{
     gender: 'Female',
     color: 'tan with brown',
     id: 2,
+    age: '12 weeks',
+    momWeight: '18 - 20 lbs',
+    dadWeight: '25 - 30 lbs',
 },
 {
     name: 'Puppy 3',
@@ -26,6 +32,9 @@ export const dogData = [{
     gender: 'Female',
     color: 'tan with brown',
     id: 3,
+    age: '12 weeks',
+    momWeight: '18 - 20 lbs',
+    dadWeight: '25 - 30 lbs',
 },
 {
     name: 'Puppy 4',
@@ -35,6 +44,9 @@ export const dogData = [{
     gender: 'Male',
     color: 'tan with brown',
     id: 4,
+    age: '12 weeks',
+    momWeight: '18 - 20 lbs',
+    dadWeight: '25 - 30 lbs',
 },
 {
     name: 'Puppy 5',
@@ -44,6 +56,9 @@ export const dogData = [{
     gender: 'Male',
     color: 'tan with brown',
     id: 5,
+    age: '12 weeks',
+    momWeight: '18 - 20 lbs',
+    dadWeight: '25 - 30 lbs',
 },
 {
     name: 'Puppy 6',
@@ -53,6 +68,9 @@ export const dogData = [{
     gender: 'Female',
     color: 'tan with brown',
     id: 6,
+    age: '12 weeks',
+    momWeight: '18 - 20 lbs',
+    dadWeight: '25 - 30 lbs',
 },
 {
     name: 'Puppy 7',
@@ -62,5 +80,8 @@ export const dogData = [{
     gender: 'Male',
     color: 'tan with brown',
     id: 7,
+    age: '12 weeks',
+    momWeight: '18 - 20 lbs',
+    dadWeight: '25 - 30 lbs',
 }
 ]

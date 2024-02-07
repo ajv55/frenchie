@@ -11,7 +11,6 @@ export async function POST(resquest: NextResponse) {
 
     try {
         const body =  await resquest.json();
-        console.log(body)
 
         const { firstname, lastname, message, email } = body;
 
@@ -24,6 +23,8 @@ export async function POST(resquest: NextResponse) {
             text: message,
         
         });
+
+        console.log(data)
 
 
 
