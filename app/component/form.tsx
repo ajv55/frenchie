@@ -5,7 +5,6 @@ import Dior from '../../public/dior.png';
 import Arrow from '../../public/arrow.png';
 import { alex_brush } from '../fonts/fonts';
 
-import {sendEmail} from '../sendEmail';
 
 
 
