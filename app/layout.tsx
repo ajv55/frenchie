@@ -1,12 +1,11 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { arimo } from './fonts/fonts';
 import './globals.css'
 import { PupProvider } from './context/pupContext';
 import { Toaster } from 'react-hot-toast';
 import Nav from './component/ nav';
 import Footer from './component/footer';
 
-const inter = Inter({ subsets: ['latin'] })
 
 
 export const metadata: Metadata = {
@@ -21,7 +20,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={arimo.className}>
         <Toaster position='top-right' toastOptions={{duration: 3000}} />
         <Nav />
         <PupProvider>

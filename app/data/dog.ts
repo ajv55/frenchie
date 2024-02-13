@@ -3,7 +3,7 @@
 export const dogData = [{
     name: 'Puppy 1',
     imgUrl: '/pup.jpg',
-    birthday: '1/12/24',
+    birthday: 'Jan 12, 2024',
     price: 2500,
     gender: 'Male',
     color: 'tan with brown',
@@ -15,7 +15,7 @@ export const dogData = [{
 {
     name: 'Puppy 2',
     imgUrl: '/pup.jpg',
-    birthday: '1/12/24',
+    birthday: 'Feb 2, 2024',
     price: 2500,
     gender: 'Female',
     color: 'tan with brown',
@@ -27,7 +27,7 @@ export const dogData = [{
 {
     name: 'Puppy 3',
     imgUrl: '/pup.jpg',
-    birthday: '1/12/24',
+    birthday: 'Dec 2, 2023',
     price: 2500,
     gender: 'Female',
     color: 'tan with brown',
@@ -39,7 +39,7 @@ export const dogData = [{
 {
     name: 'Puppy 4',
     imgUrl: '/pup.jpg',
-    birthday: '1/12/24',
+    birthday: 'Sept 5, 2023',
     price: 2500,
     gender: 'Male',
     color: 'tan with brown',
@@ -51,7 +51,7 @@ export const dogData = [{
 {
     name: 'Puppy 5',
     imgUrl: '/pup.jpg',
-    birthday: '1/12/24',
+    birthday: 'Feb 2, 2024',
     price: 2500,
     gender: 'Male',
     color: 'tan with brown',
@@ -63,7 +63,7 @@ export const dogData = [{
 {
     name: 'Puppy 6',
     imgUrl: '/pup.jpg',
-    birthday: '1/12/24',
+    birthday: 'Feb 2, 2024',
     price: 2500,
     gender: 'Female',
     color: 'tan with brown',
@@ -75,7 +75,7 @@ export const dogData = [{
 {
     name: 'Puppy 7',
     imgUrl: '/pup.jpg',
-    birthday: '1/12/24',
+    birthday: 'Feb 2, 2024',
     price: 2500,
     gender: 'Male',
     color: 'tan with brown',
