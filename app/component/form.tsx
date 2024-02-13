@@ -15,13 +15,7 @@ import { toast } from 'react-hot-toast';
 
 
 
-export default function Form() {
-
-
-    const form: any = new FormData();
-    
-
-    
+export default function Form() {    
 
 
     const { isSuccess, setIsSuccess } = usePup(); 
